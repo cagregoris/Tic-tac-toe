@@ -4,6 +4,8 @@ import Popup from './Popup';
 
 function Board() {
 
+  const [buttonPopup, setButtonPopup] = useState(false)
+
   const [square, setSquare] = useState(Array(9).fill(null));
   const [X, setX] = useState(true);
 
@@ -29,7 +31,8 @@ function Board() {
       setSquare(squares);
       setX(!X)
     } else {
-      alert("that spot is taken!")
+      setButtonPopup(true)
+  
     }
   }
 
@@ -75,6 +78,10 @@ function Board() {
     </div>
     <br></br>
     {status}
+
+    <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <h3>That spot is already taken!</h3>
+      </Popup>
   </div>
   )
 }
