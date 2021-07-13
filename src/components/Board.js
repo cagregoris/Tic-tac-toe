@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Square from './Square';
+import Popup from './Popup';
 
 function Board() {
 
@@ -31,6 +32,7 @@ function Board() {
       alert("that spot is taken!")
     }
   }
+
 
   function calculateWinner(squares) {
     const lines = [
@@ -71,6 +73,7 @@ function Board() {
     {renderSquare(7)}
     {renderSquare(8)}
     </div>
+    <br></br>
     {status}
   </div>
   )

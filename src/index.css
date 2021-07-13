@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 
 body {
   margin: 0;
-  font-family:Poppins;
+  font-family: 'Otomanopee One', sans-serif;
+  color: #BD2124;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FFFDD0;
+  background-color: #4889D7;
 }
 
 code {
@@ -17,6 +18,8 @@ code {
   text-align:center;
   margin:auto;
   font-weight: bold;
+  text-shadow: 1px 1px 0px rgb(0, 0, 0);
+  font-size: 30px;
 }
 
 .board-row{
@@ -29,6 +32,9 @@ code {
   width:120px;
   font-size: 50px;
   border: none;
+  margin: 5px;
+  background-color: #E07F1A;
+  font-family: 'Otomanopee One', sans-serif;
 }
 
 .App{
@@ -39,7 +45,7 @@ code {
 .header{
   text-align:center;
   font-size:40px;
-  text-shadow: 2px 2px 4px #bbb;
+  text-shadow: 3px 3px 0px rgb(0, 0, 0);
 }
 
 .hide{
