@@ -6,9 +6,9 @@ A simple game of tic-tac-toe built with react
 
 !["tic-tac-toe"](https://github.com/cascobie/Tic-tac-toe/blob/master/public/Screen%20Shot%202021-08-09%20at%201.26.23%20PM.png)
 
-!["spot-taken"](https://github.com/cascobie/Tic-tac-toe/blob/master/public/Screen%20Shot%202021-08-09%20at%201.28.12%20PM.png)
-
 !["winner"](https://github.com/cascobie/Tic-tac-toe/blob/master/public/Screen%20Shot%202021-08-09%20at%201.26.43%20PM.png)
+
+!["spot-taken"](https://github.com/cascobie/Tic-tac-toe/blob/master/public/Screen%20Shot%202021-08-09%20at%201.28.12%20PM.png)
 
 ## Getting Started
 
