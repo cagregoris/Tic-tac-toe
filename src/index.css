@@ -3,10 +3,10 @@
 body {
   margin: 0;
   font-family: 'Otomanopee One', sans-serif;
-  color: #BD2124;
+  color: #17252a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #4889D7;
+  background-color: #FEFFFF;
 }
 
 code {
@@ -18,7 +18,6 @@ code {
   text-align:center;
   margin:auto;
   font-weight: bold;
-  text-shadow: 1px 1px 0px rgb(0, 0, 0);
   font-size: 30px;
 }
 
@@ -33,8 +32,9 @@ code {
   font-size: 50px;
   border: none;
   margin: 5px;
-  background-color: #E07F1A;
+  background-color: #def2f1;
   font-family: 'Otomanopee One', sans-serif;
+  color: #3aafa9;
 }
 
 .App{
@@ -45,7 +45,6 @@ code {
 .header{
   text-align:center;
   font-size:40px;
-  text-shadow: 3px 3px 0px rgb(0, 0, 0);
 }
 
 .hide{
